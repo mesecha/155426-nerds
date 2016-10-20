@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Vladimir Mesecha](https://up.htmlacademy.ru/htmlcss/15/user/155426).
-* Наставник: `Неизвестно`.
+* Наставник: [Денис Власов] (https://up.htmlacademy.ru/htmlcss/15/user/18034).
 
 ---
 
