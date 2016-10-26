@@ -70,6 +70,8 @@
 }
 .header-cart{
 	text-align: right;
+	padding: 19px;
+
 }
 .header-menu a,.header-cart a{
 	padding: 15px 25px;
@@ -94,6 +96,12 @@
 	font-size: 2em;
 	padding: 25px 0;
 	font-weight: bold;
+}
+.road3 {
+	padding: 0px 10px;
+	font-size: 2em;
+	letter-spacing: 3px;
+	text-align: left;
 }
 .button {
 	padding: 28px 0px 0px 0px;
@@ -133,9 +141,15 @@
 	border-radius: 2px;
 	margin: 20px 0px;
 }
-.col-4 {
-	background-color: #ffffff;
-	margin: 70px 0px;
+
+.nerds {
+	float: right;
+}
+.line {
+	font-size: 2em;
+	padding: 25px 0;
+	font-weight: bold;
+	padding: 77px 0px;
 }
 
 /* */
