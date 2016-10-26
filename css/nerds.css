@@ -98,7 +98,7 @@
 .button {
 	padding: 28px 0px 0px 0px;
 }
-.button1 {
+.button0 {
 	padding: 10px 40px 10px 40px;
 	background-color: #fb565a;
 	border: #fb565a;
@@ -106,7 +106,7 @@
 	text-align: center;
 	border-radius: 2px; 
 }
-.button2 {
+.button1 {
 	padding: 10px 20px 10px 20px;
 	background-color: #fb565a;
 	border: #fb565a;
@@ -115,7 +115,7 @@
 	border-radius: 2px;
 	margin: 20px 0px;
 }
-.button3 {
+.button2 {
 	padding: 10px 20px 10px 20px;
 	background-color: #00ca74;
 	border: #fb565a;
@@ -124,7 +124,18 @@
 	border-radius: 2px;
 	margin: 20px 0px;
 }
+.button3 {
+	padding: 10px 20px 10px 20px;
+	background-color: #efc849;
+	border: #fb565a;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 2px;
+	margin: 20px 0px;
+}
 .col-4 {
 	background-color: #ffffff;
+	margin: 70px 0px;
 }
+
 /* */
