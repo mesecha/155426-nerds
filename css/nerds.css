@@ -63,6 +63,7 @@
 .header-menu,.header-cart{
 	text-align: center;
 	padding-top: 15px;
+
 }
 .header-cart{
 	text-align: right;
@@ -77,4 +78,24 @@
 .header-cart img{
 	margin-right: 20px;
 }
+
+.overflow {
+        overflow: hidden;
+}
+h1 {
+	font-size: 2em;
+	padding: 25px;
+}
+.button1 {
+	padding: 10px 40px 10px 40px;
+	background-color: #fb565a;
+	border: #fb565a;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 2px;
+}
+.button {
+	padding: 20px;
+}
+
 /* */
