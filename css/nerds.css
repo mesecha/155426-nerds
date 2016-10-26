@@ -82,9 +82,10 @@
 .overflow {
         overflow: hidden;
 }
-h1 {
+.road {
 	font-size: 2em;
-	padding: 25px;
+	padding: 25px 0;
+	font-weight: bold;
 }
 .button1 {
 	padding: 10px 40px 10px 40px;
@@ -95,7 +96,7 @@ h1 {
 	border-radius: 2px;
 }
 .button {
-	padding: 20px;
+	padding: 28px 0px 0px 0px;
 }
 
 /* */
