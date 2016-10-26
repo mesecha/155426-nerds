@@ -53,8 +53,11 @@
 	background-color: white;
 }
 .header-wrapper{
-	background-color: #eeeeee;
+	background-color: #ffffff;
 	padding-top: 45px;
+}
+.header-top {
+	background-color: #eeeeee;
 }
 
 .logo-wrapper img{
@@ -79,13 +82,21 @@
 	margin-right: 20px;
 }
 
-.overflow {
-        overflow: hidden;
+.row {
+    overflow: hidden;
 }
 .road {
 	font-size: 2em;
 	padding: 25px 0;
 	font-weight: bold;
+}
+.road2 {
+	font-size: 2em;
+	padding: 25px 0;
+	font-weight: bold;
+}
+.button {
+	padding: 28px 0px 0px 0px;
 }
 .button1 {
 	padding: 10px 40px 10px 40px;
@@ -93,10 +104,27 @@
 	border: #fb565a;
 	color: #ffffff;
 	text-align: center;
+	border-radius: 2px; 
+}
+.button2 {
+	padding: 10px 20px 10px 20px;
+	background-color: #fb565a;
+	border: #fb565a;
+	color: #ffffff;
+	text-align: center;
 	border-radius: 2px;
+	margin: 20px 0px;
 }
-.button {
-	padding: 28px 0px 0px 0px;
+.button3 {
+	padding: 10px 20px 10px 20px;
+	background-color: #00ca74;
+	border: #fb565a;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 2px;
+	margin: 20px 0px;
 }
-
+.col-4 {
+	background-color: #ffffff;
+}
 /* */
