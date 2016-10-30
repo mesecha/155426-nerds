@@ -8,9 +8,9 @@
   <body>
     <header class="header-top">
       <div class="container">
-        <nav class="top-scan">
+        <nav class="top-nav">
           <!--Лого-->
-          <div class="logo-boxes">
+          <div class="logo">
             <a class="header-menu" href="index.html">
               <img src="img/nerds-logo.png">
             </a>
@@ -19,14 +19,12 @@
           <ul class="header-menu">
             <li><a href="#">Студия</a></li>
             <li><a href="#">Клиенты</a></li>
-            <li><a href="catalog.html">Магазин</a></li>
+            <li><a href="#">Магазин</a></li>
             <li><a href="#">Контакты</a></li>
           </ul>
           <!--Корзина у выхода-->
           <div class="header-cart">
             <a class="menu-cart" href="#">
-              <img src="img/cart-icon.png" alt="">
-              <!-- картинка корЗинЫ)/img/cart-icon.png-->
               Корзина
             </a>
           </div>
@@ -53,36 +51,36 @@
     </header>
     <main>  <!--  меню в центре -->
     <div class="container">
-      <div class="illustration">
-        <article class="illustration-Web">
+      <section class="functions-promo">
+        <article class="promo-item">
           <img src="img/illustration-1.png">
           <h2>ВЕБ-САЙТЫ</h2>
           <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-          <a class="button1" >ЗАКАЗАТЬ</a>
+          <a class="btn btn-presentations" href="#">ЗАКАЗАТЬ</a>
         </article>
-        <article class="illustration-Web">
+        <article class="promo-item">
           <img src="img/illustration-2.png">
           <h2>ПРИЛОЖЕНИЯ</h2>
           <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-          <a class="button2">ЗАКАЗАТЬ</a>
+          <a class="btn btn-presentations" href="#">ЗАКАЗАТЬ</a>
         </article>
-        <article class="illustration-Web">
+        <article class="promo-item">
           <img src="img/illustration-3.png">
           <h2>ПРЕЗЕНТАЦИЯ</h2>
           <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-          <a class="button3">ЗАКАЗАТЬ</a>
+          <a class="btn btn-presentations" href="#">ЗАКАЗАТЬ</a>
         </article>
-      </div>
-      <section class="row-product ">
+      </section>
+      <section class="about-product ">
         <!--верх Левый Блок -->
-        <div class="illustration-product block-left">
+        <div class="about-ass">
           <h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
           <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.
           </p>
         </div>
         <!--верх Правый Блок -->
-        <div class="illustration-product block-right">
-          <figure class="nerds-illustration">
+        <div class="promo-product block-right">
+          <figure class="about-logo">
             <img src="img/nerds-illustration.png">
             <figcaption>
             С 2004 Года любим точность во всем:
@@ -90,48 +88,33 @@
           </figure>
         </div>
         <!--нижний левый блок-->
-        <div class="illustration-product block-left">
+        <div class="custom-product">
           <h3>ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ:</h3>
           <ul>
-            <li><span class="point">—</span>
-            Веб-сайтов любой сложности
-          </li>
-          <li>
-            <span class="point">—</span>
-            Мобильных приложений для iOS и Android
-          </li>
-          <li>
-            <span class="point">—</span>
-            Слайдшоу и видео для корпоративных презентайий
-          </li>
-        </ul>
-      </div>
-      <!--нижний правый блок-->
-      <div class="illustration-product block-right">
-        <ul>
-          <li class="point-1">
-            Уровень самоотдачи 146%
-          </li>
-          <li class="point-1">
-            Соблюдения сроков на 100%
-          </li>
-          <li class="point-1">
-            Минимальная предоплата 50%
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!--footer подвал страницы-->
-    <div class="logo-brand">
-      <div class="label-academy">
-        <img class="logo-academy" src="img/logo-1.png">
-      </div>
-      <div class="label-borodinski">
-      <img class="logo-borodinski" src="img/logo-2.png"></div>
-      <div class="label-pink">
-      <img class="logo-pink" src="img/logo-3.png"></div>
-      <div class="label-mishka">
-        <img class="logo-mishka" src="img/logo-4.png">
+            <li>Веб-сайтов любой сложности</li>
+            <li>Мобильных приложений для iOS и Android</li>
+            <li>Слайдшоу и видео для корпоративных презентайий</li>
+          </ul>
+        </div>
+        <!--нижний правый блок-->
+        <div class="cool-product">
+          <ul>
+            <li>Уровень самоотдачи 146%</li>
+            <li>Соблюдения сроков на 100%</li>
+            <li>Минимальная предоплата 50%</li>
+          </ul>
+        </div>
+      </section>
+      <!--footer подвал страницы-->
+      <div class="portfolio">
+        <a class="label-academy">
+        <img class="logo-academy" src="img/logo-1.png"></a>
+        <a class="label-borodinski">
+        <img class="logo-borodinski" src="img/logo-2.png"></a>
+        <a class="label-pink">
+        <img class="logo-pink" src="img/logo-3.png"></a>
+        <a class="label-mishka">
+        <img class="logo-mishka" src="img/logo-4.png"></a>
       </div>
     </div>
   </div>
@@ -143,22 +126,22 @@
       <div class="map-marker">
         <img src="img/map-marker.png">
       </div>
-      <article class="contact">
+      <div class="contact">
         <h2>Nerds Design Studio</h2>
         <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19.8</p>
         <p>тел. +7(812)275-75-75</p>
-        <button class="button4">Напиши нам</button>
-      </article>
+        <a class="btn btn-presentations">Напиши нам</a>
+      </div>
     </div>
     <!-- сылки вк фб инста-->
-    <section class="footer-sale">
+    <div class="footer-links>
       <h2>Давайте дружить, это выгодно!</h2><p>Скидка 10% для друзей из социальных сетей.</p>
       <div class="logo-icon">
-        <img src="img/vk-icon.png">
-        <img src="img/fb-icon.png">
-        <img src="img/insta-icon.png">
+        <a><img src="img/vk-icon.png"></a>
+        <a><img src="img/fb-icon.png"></a>
+        <a><img src="img/insta-icon.png"></a>
       </div>
-    </section>
+    </div>
   </footer>
 </body>
 </html>
