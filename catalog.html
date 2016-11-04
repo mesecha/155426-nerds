@@ -36,8 +36,8 @@
     <!--center страницы-->
     <h1>Магазин готовых шаблонов</h1>
     <!--Меню каталога-->
-    <main>
-    <div class="container">
+    <main class="page-main">
+    <div class="catalog">
       <!--Диапазон цен-->
       <div class="left-side">
         <p><b>Стоимость</b></p>
@@ -46,7 +46,7 @@
             <div class="scale">-</div>
             <div class="ball"></div>
           </div>
-          <!--принимать решение по цене-->
+          <!--бегунок по цене-->
           <label>ОТ<input type="text" name="login"></label>
           <label>ДО<input type="text" name="login"></label>
         </div>
@@ -93,8 +93,8 @@
         </div>
       </div>
       <!--sorting right-->
-      <div class="right-side">
-        <p><b>Сортировать:</b></p>
+      <div class="sorting-right-side">
+        <b>Сортировать:</b>
       </div>
       <!--sorting list-->
       <div class="sorting">
@@ -115,25 +115,55 @@
         <a href="#"></a>
         <a href="#"></a>
       </div>
-
-      
+      <!--большая колонка с товарами-->
+      <article class="catalog-item">
+        <div class="catalog-item_top">
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+        <div class="catalog-item_img-wrapper">
+          <img src="img/img-sedona.png" alt="catalog-item" width="360" height="576">
+        </div>
+      </article>
+      <article class="catalog-item">
+        <div class="catalog-item_top">
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+        <dir class="catalog-item_img-wrapper">
+          <img src="img/img-pink.png" alt="catalog-item" width="360" height="576">
+        </dir>
+      </article>
+      <article class="catalog-item">
+        <div>
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+        <div class="catalog-item_top">
+          <img src="img/img-barbershop.png" alt="catalog-item" width="360" height="576">
+        </div>
+      </article>
       <!--закрытие контейнера-->
     </div>
   </div>
   </main>
-  <!-- карта в внизу страницы footer-->
+  <!--map bottom-->
+  <div class="bottom-map">
+    <img src="img/layer2.png">
+    <div class="map-marker">
+      <img src="img/map-marker.png">
+    </div>
+  </div>
+  <!--footer-->
   <footer class="footer-line">
-    <div class="footer-map">
-      <img src="img/layer2.png">
-      <div class="map-marker">
-        <img src="img/map-marker.png">
-      </div>
-      <div class="contact">
-        <h2>Nerds Design Studio</h2>
-        <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19.8</p>
-        <p>тел. +7(812)275-75-75</p>
-        <a class="btn btn-presentations">Напиши нам</a>
-      </div>
+    <div class="contact">
+      <h2>Nerds Design Studio</h2>
+      <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19.8</p>
+      <p>тел. +7(812)275-75-75</p>
+      <a class="btn btn-presentations">Напиши нам</a>
     </div>
     <!-- сылки вк фб инста-->
     <div class="footer-links">
