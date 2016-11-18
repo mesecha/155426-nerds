@@ -3,6 +3,11 @@ body {
 	margin: 0;
 	padding: 0;
 }
+body {
+	padding: 10px;
+	font-size: 1.4;
+	line-height: 1.4;
+}
 .main-menu {
 	list-style: none;
 	padding: 0;
