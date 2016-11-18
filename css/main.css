@@ -9,7 +9,24 @@ body {
 	line-height: 1.4;
 }
 .main-menu {
-	list-style: none;
+	width: 200px;
+	margin: 0;
 	padding: 0;
-	margin: 0
+	list-style: none;
+	background: #eeeeee;
+}
+.main-menu a {
+	display: block;
+	margin-bottom: -1px;
+	padding: 8px 14px;
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+}
+.main-menu a:hover {
+	background: #a6a6a6;
+}
+
+.mine-cart {
+
 }
