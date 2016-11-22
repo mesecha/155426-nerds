@@ -1,30 +1,40 @@
 html,
 body {
-	padding: 10px;
-	font-size: 16px;
-	line-height: 1.4;
-	font-family: "Roboto";
+}
+.container {
+	width: 1200px;
+	padding: 0 auto;
+	margin: 0 auto;
+	min-height: 50px;
+	background: #eeeeee;
+}
+.top-nav {
+	padding-top: 50px;
+	overflow: hidden;
+}
+.top-nav .logo,
+.top-nav .main-menu,
+.top-nav .mine-cart {
+
+	float: left;
+	list-style: none;
+}
+.top-nav .main-menu li,
+.top-nav .mine-cart {
+	float: left;
+	border: 1px solid black;
+	padding: 10px 10px;
+	margin-right: 25px;
 }
 .main-menu {
-	margin: 0px;
-	padding: 10px 15px;
-	border: 3px solid #000000;
-}
-.main-menu li {
-	display: inline-block;
-	margin-right: 50px;
-}
-.main-menu a {
-	text-decoration: none; 
-	list-style: none;
 
+	margin-left: 200px;
+	margin-right: auto;
 }
-	
-.Клиенты {
-  font-size: 4.564px;
-  font-family: "Roboto";
-  color: rgb(0, 0, 0);
-  text-transform: uppercase;
-  line-height: 1.875;
-  text-align: right;
+.top-nav .mine-cart {
+	float: right;
+	margin-top: 16px;
+}
+.top-nav a {
+	text-decoration: none;
 }
