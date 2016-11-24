@@ -1,40 +1,84 @@
 html,
 body {
-}
+	padding: 0;
+	margin: 0;
+  font-size: 16px;
+ }
 .container {
-	width: 1200px;
-	padding: 0 auto;
-	margin: 0 auto;
-	min-height: 50px;
-	background: #eeeeee;
+	width: 1400px;
+	/*background: #eeeeee;*/
+	overflow: hidden;
 }
 .top-nav {
 	padding-top: 50px;
+	background: #eeeeee;
 	overflow: hidden;
 }
 .top-nav .logo,
 .top-nav .main-menu,
 .top-nav .mine-cart {
-
 	float: left;
 	list-style: none;
 }
 .top-nav .main-menu li,
 .top-nav .mine-cart {
 	float: left;
-	border: 1px solid black;
 	padding: 10px 10px;
-	margin-right: 25px;
+	margin-right: 40px;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+ 	line-height: 1.875;
+ 	text-align: left;
+	border: 1px solid black;
 }
 .main-menu {
-
 	margin-left: 200px;
-	margin-right: auto;
+	margin-right: 280px;
 }
 .top-nav .mine-cart {
 	float: right;
-	margin-top: 16px;
+	margin-top: 0px;
 }
 .top-nav a {
 	text-decoration: none;
+}
+/* Дорого, долго, */
+h1 {
+  	font-size: 55px;
+ 	line-height: 1;
+ 	font-family: "Roboto";
+ 	color: rgb(0, 0, 0);
+}
+.slider-top p {
+	font-size: 16px;
+  	font-family: "Roboto";
+  	color: rgb(40, 49, 54);
+  	line-height: 1.5;
+} 
+.slider-top {
+	float: left;
+}
+.slider-select img {
+	float: right;
+}
+.slider-top a {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 20px 50px;
+	background-color: #fb565a; 
+	color: white;
+}
+
+
+.active {
+	/*-0-0-0- ?????  -*/
+}
+
+
+.functions-promo {
+	margin-top: 80px;
+	overflow: hidden;
+}
+.promo-item {
+	float: left;
 }
