@@ -429,15 +429,17 @@ header .slider {
 .sorting-list {
 	float: right;
 	list-style: none;
-	margin-right: 170px;
+	margin-right: 200px;
 	margin-top: 0;
 	padding-left: 0;
 }
 .catalog-left {
 	float: left;
+	padding-left: 10px;
 }
 .catalog-right {
 	float: right;
+	padding-right: 110px;
 }
 
 /*catalog  ---------------------------catalog*/
