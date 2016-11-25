@@ -74,6 +74,7 @@ header .top-nav .mine-cart a.cart-icon {
   	margin-bottom: 25px;
   	color: rgb(0, 0, 0);
 }
+/*catalog*/
 h1.shop-g {
 	line-height: 1;
 	margin-top: 78px;
@@ -83,6 +84,7 @@ h1.shop-g {
 	font-family: "Roboto";
 	color: rgb(0, 0, 0);
 }
+/*catalog*/
 }
 header .slider {
 	overflow: hidden;
@@ -361,6 +363,29 @@ header .slider {
 	text-transform:uppercase;
 	margin-top: 0;
 }
+/*catalog  ---------------------------catalog*/
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.catalog{
+	/*overflow: hidden;
+*/}
+.catalog .left-side {
+	float: left;
+	margin-bottom: 20px;
+    color: #cc0000;
+    background: rgba(255, 234, 171, 0.5);
+    border: 2px dashed #cccccc;
+}
+.catalog .right-side {
+	float: right;
+    color: #cc0000;
+    background: rgba(255, 234, 171, 0.5);
+    border: 3px dashed #cccccc;
+}
+/*catalog  ---------------------------catalog*/
 footer {
 	padding:70px 0;
 	overflow:hidden;
