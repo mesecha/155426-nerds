@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс Каталог</title>
+    <link href="http://fonts.goosgleapis.com/css?family=Roboto:500,300&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
@@ -13,28 +14,26 @@
         <nav class="top-nav">
           <!--Лого-->
           <div class="logo">
-            <a class="header-menu" href="catalog.html">
+            <a class="logo-menu">
               <img src="img/nerds-logo.png">
             </a>
           </div>
           <!--Заголовок меню-->
-          <ul class="header-menu">
-            <li><a href="#">Студия</a></li>
-            <li><a href="#">Клиенты</a></li>
-            <li><a href="#">Магазин</a></li>
-            <li><a href="#">Контакты</a></li>
+          <ul class="main-menu">
+            <li><a href="#studio">Студия</a></li>
+            <li><a href="#gallery">Клиенты</a></li>
+            <li><a href="#shop">Магазин</a></li>
+            <li><a href="#contacts">Контакты</a></li>
           </ul>
           <!--Корзина у выхода-->
-          <div class="header-cart">
-            <a class="menu-cart" href="#">
+          <div class="mine-cart">
+            <a class="cart cart-icon" title="Корзина" href="#">
               Корзина
             </a>
           </div>
         </nav>
-      </div>
-    </header>
     <!--center страницы-->
-    <h1>Магазин готовых шаблонов</h1>
+    <h1 class="shop-g">Магазин готовых шаблонов</h1>
     <!--Меню каталога-->
     <main class="page-main">
     <div class="catalog">
@@ -190,28 +189,30 @@
   </div>
   </main>
   <!--map bottom-->
-  <div class="bottom-map">
-    <img src="img/layer2.png">
+  
+  <div class="map-container">
     <div class="map-marker">
       <img src="img/map-marker.png">
+    </div>
+    <div class="contact">
+      <h4>Nerds Design Studio</h4>
+      <p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
+      <p>тел. +7(812)275-75-75</p>
+      <a href="#" class="btn btn-presentations">Напиши нам</a>
     </div>
   </div>
   <!--footer-->
   <footer class="footer-line">
-    <div class="contact">
-      <h2>Nerds Design Studio</h2>
-      <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19.8</p>
-      <p>тел. +7(812)275-75-75</p>
-      <a class="btn btn-presentations">Напиши нам</a>
-    </div>
-    <!-- сылки вк фб инста-->
-    <div class="footer-links">
-      <h2>Давайте дружить, это выгодно!</h2>
-      <p>Скидка 10% для друзей из социальных сетей.</p>
+    <div class="container">
+      <!-- сылки вк фб инста-->
       <div class="footer-social">
-        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        <a class="social-btn social-btn-vk" title="Вконтакте" href="#"></a>
+        <a class="social-btn social-btn-fb" title="Фейсбук" href="#"></a>
+        <a class="social-btn social-btn-inst" title="Инстаграм" href="#"></a>
+      </div>
+      <div class="footer-links">
+        <h2>Давайте дружить, это выгодно!</h2>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
       </div>
     </div>
   </footer>

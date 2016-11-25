@@ -74,6 +74,12 @@ header .top-nav .mine-cart a.cart-icon {
   	margin-bottom: 25px;
   	color: rgb(0, 0, 0);
 }
+h1.shop-g {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right auto;
+}
+}
 header .slider {
 	overflow: hidden;
 	max-height: 430px;
