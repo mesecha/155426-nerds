@@ -419,14 +419,30 @@ header .slider {
     color: rgb(0, 0, 0);
     padding-left: 75px;
 }
-.range-filter form {
+/*.range-filter form {
     width: 50%;
     padding:0 26px;
     margin-left: 77px;
     background-color: #eee;
     border-radius: 2px;
     box-shadow: 0 0 10px #cccccc;
+}*/
+.catalog .range-control {
+
+	padding-left: 100px;
 }
+.range-control label {
+	padding-right: 20px;
+}
+.range-control input[type="text"] {
+    width: 15%;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+    border: 1px solid #cccccc;
+    background-color: #eee;
+}
+
 .catalog .label-1 {
 	padding-top: 50px;
 }
@@ -450,7 +466,7 @@ header .slider {
 .catalog .label-2 button {
 	width: 262px;
 	height: 52px; 
-	margin-top: 118px;
+	margin-top: 120px;
 	margin-left: -8px;
 	background-color: #eee;
 	color: rgb(0, 0, 0);

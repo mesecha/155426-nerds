@@ -41,21 +41,18 @@
     <div class="catalog clearfix">
       <!--Диапазон цен-->
       <div class="left-side">
-      <div class="value">
-        <b>Стоимость:</b>
+        <div class="value">
+          <b>Стоимость:</b>
         </div>
         <div class="range-filter">
-        <form action="/echo" method="post">
-        <label><input type=""></label>
-          <div class="range-control">
-            <div class="scale">-</div>
+           <div class="scale">-</div>
             <div class="ball"></div>
-          </div>
-          <!--бегунок по цене-->
-
-          <label>ОТ<input type="text" name="login"></label>
-          <label>ДО<input type="text" name="login"></label>
         </div>
+          <!--бегунок по цене-->
+          <div class="range-control">
+          <label>ОТ<input type="text" name="login" value="0"></label>
+          <label>ДО<input type="text" name="login" value="15 000"></label>
+          </div>
         <!-- колонка переключателей-->
         <div class="label-1">
           <p><b>Сетка:</b></p>
@@ -100,131 +97,130 @@
       </div>
       <!--sorting right-->
       <div class="right-side">
-      <!--sorting list-->
-      <div class="sorting">
-        <b>Сортировать:</b>
-        <ul class="sorting-list">
-          <li class="sorting-item">
-            <a href="#" class="sorting-link">по цене</a>
+        <!--sorting list-->
+        <div class="sorting">
+          <b>Сортировать:</b>
+          <ul class="sorting-list">
+            <li class="sorting-item">
+              <a href="#" class="sorting-link">по цене</a>
+            </li>
+            <li class="sorting-item">
+              <a href="#" class="sorting-link">по типу</a>
+            </li>
+            <li class="sorting-item">
+              <a href="#" class="sorting-link">по названию</a>
+            </li>
+          </ul>
+        </div>
+        <!--sorting стрелки-->
+        <div class="sorting-arrow">
+          <a href="#"></a>
+          <a href="#"></a>
+        </div>
+        <!--большая колонка с товарами-->
+        <div class="catalog-left">
+          <article class="catalog-item">
+            <div class="catalog-item_top">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+            <div class="catalog-item_img-wrapper">
+              <img src="img/img-sedona.png" alt="catalog-item1" width="360" height="576">
+            </div>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item_top">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+            <div class="catalog-item_img-wrapper">
+              <img src="img/img-barbershop.png" alt="catalog-item2" width="360" height="576">
+            </div>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item_top">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+            <div class="catalog-item_img-wrapper">
+              <img src="img/img-aplus.png" alt="catalog-item3" width="360" height="576">
+            </div>
+          </article>
+        </div>
+        <div class="catalog-right">
+          <article class="catalog-item">
+            <div class="catalog-item_top">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+            <div class="catalog-item_img-wrapper">
+              <img src="img/img-pink.png" alt="catalog-item4" width="360" height="576">
+            </div>
+          </article>
+          <article class="catalog-item">
+            <div  class="catalog-item_top">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+            <div class="catalog-item_img-wrapper">
+              <img src="img/img-mishka.png" alt="catalog-item5" widyh="360" height="576">
+            </div>
+          </article>
+          <article class="catalog-item">
+            <div class="catalog-item_top">
+              <i></i>
+              <i></i>
+              <i></i>
+            </div>
+            <div class="catalog-item_img-wrapper">
+              <img src="img/img-kvast.png" alt="catalog-item6" widht="360" height="576">
+            </div>
+          </article>
+        </div>
+        <!--botton buttons-->
+        <ul class="pagination">
+          <li class="pagination-item">
+            <a href="#" class="pagination-item">1</a>
           </li>
-          <li class="sorting-item">
-            <a href="#" class="sorting-link">по типу</a>
-          </li>
-          <li class="sorting-item">
-            <a href="#" class="sorting-link">по названию</a>
-          </li>
+          <li class="pagination-item"></li>
+          <li></li>
+          <li></li>
         </ul>
+        <!--закрытие контейнера-->
       </div>
-      <!--sorting стрелки-->
-      <div class="sorting-arrow">
-        <a href="#"></a>
-        <a href="#"></a>
-      </div>
-      <!--большая колонка с товарами-->
-
-      <div class="catalog-left">
-      <article class="catalog-item">
-        <div class="catalog-item_top">
-          <i></i>
-          <i></i>
-          <i></i>
+      </main>
+      <!--map bottom-->
+      
+      <div class="map-container">
+        <div class="map-marker">
+          <img src="img/map-marker.png">
         </div>
-        <div class="catalog-item_img-wrapper">
-          <img src="img/img-sedona.png" alt="catalog-item1" width="360" height="576">
-        </div>
-      </article>
-      <article class="catalog-item">
-        <div class="catalog-item_top">
-          <i></i>
-          <i></i>
-          <i></i>
-        </div>
-        <div class="catalog-item_img-wrapper">
-          <img src="img/img-barbershop.png" alt="catalog-item2" width="360" height="576">
-        </div>
-      </article>
-      <article class="catalog-item">
-        <div class="catalog-item_top">
-          <i></i>
-          <i></i>
-          <i></i>
-        </div>
-        <div class="catalog-item_img-wrapper">
-          <img src="img/img-aplus.png" alt="catalog-item3" width="360" height="576">
-        </div>
-      </article>
-      </div>
-      <div class="catalog-right">
-      <article class="catalog-item">
-        <div class="catalog-item_top">
-          <i></i>
-          <i></i>
-          <i></i>
-        </div>
-        <div class="catalog-item_img-wrapper">
-          <img src="img/img-pink.png" alt="catalog-item4" width="360" height="576">
-        </div>
-      </article>
-      <article class="catalog-item">
-        <div  class="catalog-item_top">
-          <i></i>
-          <i></i>
-          <i></i>
-        </div>
-        <div class="catalog-item_img-wrapper">
-          <img src="img/img-mishka.png" alt="catalog-item5" widyh="360" height="576">
-        </div>
-      </article>
-      <article class="catalog-item">
-        <div class="catalog-item_top">
-          <i></i>
-          <i></i>
-          <i></i>
-        </div>
-        <div class="catalog-item_img-wrapper">
-          <img src="img/img-kvast.png" alt="catalog-item6" widht="360" height="576">
-        </div>
-      </article>
-      </div>
-      <!--botton buttons-->
-      <ul class="pagination">
-        <li class="pagination-item">
-          <a href="#" class="pagination-item">1</a>
-        </li>
-        <li class="pagination-item"></li>
-        <li></li>
-        <li></li>
-      </ul>
-      <!--закрытие контейнера-->
-    </div>
-    </main>
-    <!--map bottom-->
-    
-    <div class="map-container">
-      <div class="map-marker">
-        <img src="img/map-marker.png">
-      </div>
-      <div class="contact">
-        <h4>Nerds Design Studio</h4>
-        <p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
-        <p>тел. +7(812)275-75-75</p>
-        <a href="#" class="btn btn-presentations">Напиши нам</a>
-      </div>
-    </div>
-    <!--footer-->
-    <footer class="footer-line">
-      <div class="container">
-        <!-- сылки вк фб инста-->
-        <div class="footer-social">
-          <a class="social-btn social-btn-vk" title="Вконтакте" href="#"></a>
-          <a class="social-btn social-btn-fb" title="Фейсбук" href="#"></a>
-          <a class="social-btn social-btn-inst" title="Инстаграм" href="#"></a>
-        </div>
-        <div class="footer-links">
-          <h2>Давайте дружить, это выгодно!</h2>
-          <p>Скидка 10% для друзей из социальных сетей.</p>
+        <div class="contact">
+          <h4>Nerds Design Studio</h4>
+          <p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
+          <p>тел. +7(812)275-75-75</p>
+          <a href="#" class="btn btn-presentations">Напиши нам</a>
         </div>
       </div>
-    </footer>
-  </body>
-</html>
+      <!--footer-->
+      <footer class="footer-line">
+        <div class="container">
+          <!-- сылки вк фб инста-->
+          <div class="footer-social">
+            <a class="social-btn social-btn-vk" title="Вконтакте" href="#"></a>
+            <a class="social-btn social-btn-fb" title="Фейсбук" href="#"></a>
+            <a class="social-btn social-btn-inst" title="Инстаграм" href="#"></a>
+          </div>
+          <div class="footer-links">
+            <h2>Давайте дружить, это выгодно!</h2>
+            <p>Скидка 10% для друзей из социальных сетей.</p>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>
