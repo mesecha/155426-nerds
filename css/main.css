@@ -75,9 +75,12 @@ header .top-nav .mine-cart a.cart-icon {
   	color: rgb(0, 0, 0);
 }
 h1.shop-g {
-	margin-top: 100px;
-	margin-left: auto;
-	margin-right auto;
+	line-height: 1;
+	margin-top: 78px;
+	margin-left: 219px;
+	font-size: 55px;
+	font-family: "Roboto";
+	color: rgb(0, 0, 0);
 }
 }
 header .slider {
