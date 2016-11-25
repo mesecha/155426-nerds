@@ -401,42 +401,37 @@ header .slider {
 	text-decoration: none;
 	list-style: none;
 }
-.sorting{
-	padding:25px 0;
+.sorting {
+	padding:52px 0;
+}
+.sorting b {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: "Roboto";
+	color: rgb(0, 0, 0);
+	padding-left: 10px;
 }
 .sorting .sorting-list li{
 	display: inline-block;
-	padding-left: 40px
+	padding-left: 20px
 }
 .sorting-list li a {
-	text-transform: uppercase;
 	list-style: none;
 	text-decoration: none;
-.По_цене {
-  font-size: 4px;
-  font-family: "Roboto";
-  color: rgb(0, 0, 0);
-  text-transform: uppercase;
-  line-height: 1.286;
-  text-align: left;
-  -moz-transform: matrix( 3.50541372649093,0,0,3.50541372649093,0,0);
-  -webkit-transform: matrix( 3.50541372649093,0,0,3.50541372649093,0,0);
-  -ms-transform: matrix( 3.50541372649093,0,0,3.50541372649093,0,0);
-  position: absolute;
-  left: 961.544px;
-  top: 426.803px;
-  z-index: 91;
-}
-
-
-
+	font-size: 14px;
+	font-family: "Roboto";
+	color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	line-height: 1.286;
+	text-align: left;
+	padding-right: 1px;
 }
 .sorting-list {
 	float: right;
 	list-style: none;
-
-	margin-right: 175px;
+	margin-right: 170px;
 	margin-top: 0;
+	padding-left: 0;
 }
 .catalog-left {
 	float: left;
