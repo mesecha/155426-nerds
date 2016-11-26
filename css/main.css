@@ -22,18 +22,18 @@ header.header-top {
 	overflow: hidden;
 }
 
-.top-nav .logo-menu{
+.top-nav .logo-menu {
 	display: inline-block;
 	width: 160px;
 	height: 65px;
 	background-repeat: no-repeat;
 	background-image: url(../img/logo/logo.png)
 }
-.top-nav .logo-menu:hover{	
+.top-nav .logo-menu:hover {	
 	background-image: url(../img/logo/logo-hvr.png)
 }
 
-.top-nav .logo-menu:active{	
+.top-nav .logo-menu:active {	
 	background-image: url(../img/logo/logo-act.png)
 }
 
@@ -55,7 +55,7 @@ header.header-top {
 	text-align: left;
 	border: 1px solid transparent;
 }
-.top-nav .main-menu li.active a{
+.top-nav .main-menu li.active a {
 	border-bottom: 2px solid #fb565a;
 }
 header .top-nav .mine-cart a {
@@ -541,6 +541,13 @@ header .slider {
 	display: inline-block;
 	font-family: "Roboto";     /*--WTF--*/
 }
+.left-side .label-2 a:hover {
+	background-color: #dfdfdf;
+} 
+.left-side .label-2 a:active {
+	background-color: #d5d5d5;
+	color: rgb(169, 169, 169);
+}
 .catalog .label-1 label {
 	display: inline-block;
 	font-size: 16px;
@@ -694,12 +701,16 @@ header .slider {
 	margin-right: 8px;
 	padding: 11px 19px;
 }
-.pagination li.active{
+.pagination li.active {
 	background-color: transparent;
+	color: rgb(169, 169, 169);
 }
 .pagination li:hover {
 	border: 3px solid #eeeeee;
 	background-color: #dfdfdf;
+}
+.pagination li:active a{
+	color: rgb(169, 169, 169);
 }
 .pagination a {
 	list-style: none;
