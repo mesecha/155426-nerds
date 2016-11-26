@@ -21,22 +21,42 @@ header.header-top {
 	background: #eeeeee;
 	overflow: hidden;
 }
+
+.top-nav .logo-menu{
+	display: inline-block;
+	width: 160px;
+	height: 65px;
+	background-repeat: no-repeat;
+	background-image: url(../img/logo/logo.png)
+}
+.top-nav .logo-menu:hover{	
+	background-image: url(../img/logo/logo-hvr.png)
+}
+
+.top-nav .logo-menu:active{	
+	background-image: url(../img/logo/logo-act.png)
+}
+
 .top-nav .logo,
 .top-nav .main-menu,
 .top-nav .mine-cart {
 	float: left;
 	list-style: none;
 }
+
 .top-nav .main-menu li,
 .top-nav .mine-cart {
 	float: left;
-	padding: 5px 10px;
+	padding: 0 10px;
 	margin-right: 25px;
 	text-transform: uppercase;
 	color: rgb(0, 0, 0);
 	line-height: 1.875;
 	text-align: left;
 	border: 1px solid transparent;
+}
+.top-nav .main-menu li.active a{
+	border-bottom: 2px solid #fb565a;
 }
 header .top-nav .mine-cart a {
 	padding-left: 40px;
@@ -64,6 +84,13 @@ header .top-nav .mine-cart a.cart-icon {
 .top-nav a {
 	text-decoration: none;
 	color: #333;
+	padding: 5px 0;
+}
+.top-nav a:hover {
+	color:#e74246;
+}
+.top-nav a:active{
+	color:#bdbdbd;
 }
 /* Дорого, долго, */
 .slider-top h1 {
@@ -620,6 +647,28 @@ header .slider {
 	padding-right: 113px;
 	padding-top :40px;
 }
+.catalog-item_top{
+	background-color: #e9e9e9;
+	border-radius: 5px 5px 0 0;
+	padding-left:15px;
+	line-height: 40px;
+	font-size: 0;
+}
+
+.catalog-item_top i{
+	display: inline-block;
+	background-color: #fff;
+	border-radius: 50%;
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.catalog-item:hover .catalog-item_top,
+.catalog-item2:hover .catalog-item_top{
+	background-color: #4d4d4d;
+}
+
 .catalog .catalog-item{
 	padding-bottom: 70px;
 }
