@@ -375,17 +375,12 @@ header .slider {
 .catalog .left-side {
 	float: left;
 	margin-bottom: 20px;
-    color: #cc0000;
-    background: rgba(255, 234, 171, 0.5);
-    border: 2px dashed #cccccc;
+	color: #000000;
 }
 .catalog .right-side {
 	float: right;
+	color: #000000;
 	padding-left: 50px;
-	width: 880px;
-    color: #cc0000;
-    background: rgba(255, 234, 171, 0.5);
-    border: 2px dashed #cccccc;
 }
 .right-side .sorting-right-side {
 	float: left;
@@ -410,10 +405,10 @@ header .slider {
 }
 
 .value {
-	padding:57px 0;
+	padding:60px 0;
 }
 .value b {
-    font-size: 18px;
+    font-size: 19px;
     text-transform: uppercase;
     font-family: "Roboto";
     color: rgb(0, 0, 0);
@@ -427,25 +422,52 @@ header .slider {
     border-radius: 2px;
     box-shadow: 0 0 10px #cccccc;
 }*/
+.range-filter {
+	width: 216px;
+    margin: 0 auto;
+    margin-top: -10px;
+    padding: 39px 22px;
+    background-color: #eee;
+	border-radius: 3px;
+	margin-left: 75px;
+}
+.range-filter .ui-slider-handle{
+	border-radius: 50%;
+}
 
-
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.6em;
+    margin-left: -.6em;
+}
+.ui-slider-horizontal {
+    height: 0.05em;
+}
+.ui-widget-header {
+    border: 1px solid #c0c0c0;
+    background: #00ca74;
+    color: #333333;
+    font-weight: bold;
+}
 .catalog .range-control {
-	padding-left: 71px;
+	padding-left: 74px;
 }
 .range-control label {
 	padding-right: 26px;
+	color: rgb(40, 49, 54);
+	text-transform: uppercase;
 }
 .range-control input {
-	margin-top: 67px;
-	margin-left: 8px;
+	margin-top: 13px;
+	margin-left: 11px;
+	border-radius: 3px;
 }
 .range-control input[type="text"] {
 	font-size: 16px;
-    width: 22%;
-    height: 30px;
-    padding: 2px 5px;
+    width: 70px;
+    height: 34px;
+    padding: 2px 6px;
     color: rgb(40, 49, 54);
-    border: 1px solid #cccccc;
+    border: 0px solid #cccccc;
     background-color: #eee;
     text-align: center;
 }
@@ -457,44 +479,61 @@ header .slider {
 	padding-top: 0px;
 	padding-left: 72px;
 }
-.catalog .label-1 p{
+.catalog .label-1 p {
     font-size: 18px;
     text-transform: uppercase;
     font-family: "Roboto";
     color: rgb(0, 0, 0);
-    padding-left: 75px;
+    padding-left: 76px;
 }
-.catalog .label-2 p{
+.catalog .label-2 p {
+	margin-left: 4px;
+	margin-top: 29px;
     font-size: 18px;
     text-transform: uppercase;
     font-family: "Roboto";
     color: rgb(0, 0, 0);
 }
-.catalog .label-2 button {
-	width: 262px;
-	height: 52px; 
-	margin-top: 120px;
-	margin-left: -8px;
-	background-color: #eee;
+.left-side .label-2 a.btn-2 { 
+	margin-top: 25px;
+	margin-left: 2px;
 	color: rgb(0, 0, 0);
 	font-size: 16px;
-    text-transform: uppercase;
-    font-family: "Roboto";
+	text-transform: uppercase;
+	font-family: "Roboto";
+	height: 38px; 
+	width: 263px; 
+	border-radius: 29px; 
+	text-align: center; 
+	padding-top: 15px;
+	
 
 }
 .catalog .label-1 label {
 	display: inline-block;
 	padding-left: 81px;
-	padding-bottom: 21px;
+	padding-bottom: 18px;
 	font-size: 14px;
-    text-transform: uppercase;
     font-family: "Roboto";
     color: rgb(0, 0, 0);
 }
-
+.catalog .label-2 label {
+	padding-left: 10px;
+	padding-bottom: 18px;
+    font-size: 14px;
+    font-family: "Roboto";
+	color: rgb(0, 0, 0);
+	display: inline-block;
+}
+.label-1 input {
+	margin-right: 10px;
+}
+.label-2 input {
+	margin-right: 10px;
+}
 /*--- left-side  Cтоимость:---*/
 .sorting {
-	padding:52px 0;
+	padding:55px 0;
 }
 .sorting b {
 	font-size: 18px;
@@ -528,17 +567,20 @@ header .slider {
 .catalog-left {
 	float: left;
 	padding-left: 4px;
-	padding-top :44px;
+	padding-top :40px;
 }
 .catalog-right {
 	float: right;
 	padding-right: 113px;
-	padding-top :44px;
+	padding-top :40px;
 }
 .catalog .catalog-item{
 	padding-bottom: 70px;
 }
+/*--footer catalog pagination--*/
+.pagination a {
 
+}
 /*catalog  ---------------------------catalog*/
 footer {
 	padding:70px 0;
