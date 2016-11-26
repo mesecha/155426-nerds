@@ -381,7 +381,7 @@ header .slider {
 }
 .catalog .right-side {
 	float: right;
-	padding-left: 10px;
+	padding-left: 50px;
 	width: 880px;
     color: #cc0000;
     background: rgba(255, 234, 171, 0.5);
@@ -427,28 +427,35 @@ header .slider {
     border-radius: 2px;
     box-shadow: 0 0 10px #cccccc;
 }*/
-.catalog .range-control {
 
-	padding-left: 100px;
+
+.catalog .range-control {
+	padding-left: 71px;
 }
 .range-control label {
-	padding-right: 20px;
+	padding-right: 26px;
+}
+.range-control input {
+	margin-top: 67px;
+	margin-left: 8px;
 }
 .range-control input[type="text"] {
-    width: 15%;
-    height: 40px;
-    margin-bottom: 10px;
+	font-size: 16px;
+    width: 22%;
+    height: 30px;
     padding: 2px 5px;
+    color: rgb(40, 49, 54);
     border: 1px solid #cccccc;
     background-color: #eee;
+    text-align: center;
 }
 
 .catalog .label-1 {
-	padding-top: 50px;
+	padding-top: 41px;
 }
 .catalog .label-2 {
-	padding-top: 5px;
-	padding-left: 80px;
+	padding-top: 0px;
+	padding-left: 72px;
 }
 .catalog .label-1 p{
     font-size: 18px;
@@ -494,7 +501,7 @@ header .slider {
 	text-transform: uppercase;
 	font-family: "Roboto";
 	color: rgb(0, 0, 0);
-	padding-left: 10px;
+	padding-left: 3px;
 }
 .sorting .sorting-list li{
 	display: inline-block;
@@ -521,10 +528,15 @@ header .slider {
 .catalog-left {
 	float: left;
 	padding-left: 4px;
+	padding-top :44px;
 }
 .catalog-right {
 	float: right;
-	padding-right: 145px;
+	padding-right: 113px;
+	padding-top :44px;
+}
+.catalog .catalog-item{
+	padding-bottom: 70px;
 }
 
 /*catalog  ---------------------------catalog*/
