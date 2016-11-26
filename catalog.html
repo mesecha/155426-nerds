@@ -75,43 +75,60 @@
         <!-- колонка переключателей-->
         <div class="label-1">
           <p><b>Сетка:</b></p>
-          <label>
-            <input type="radio" name="question-one" value="grid1" checked>
-            Адаптивная
-          </label><br>
-          <label>
-            <input type="radio" name="question-second" value="grid2">
-            Фиксированная
-          </label><br>
-          <label>
-            <input type="radio" name="question-third" value="grid3">
-            Резиновая
-          </label>
+          <div>
+            <input type="radio" name="grid-type" id="grid-1" value="grid1" checked>
+            <label for="grid-1">
+              Адаптивная
+            </label>
+          </div>
+          <div>
+            <input type="radio" name="grid-type" id="grid-2" value="grid2">
+            <label for="grid-2">
+              Фиксированная
+            </label>
+          </div>
+          <div>
+            <input type="radio" name="grid-type" id="grid-3" value="grid3">
+            <label for="grid-3">
+              Резиновая
+            </label>
+          </div>
         </div>
         <!--квадратная колонка-->
         <div class="label-2">
           <p><b>Особенности:</b></p>
-          <label>
-            <input type="checkbox" name="option-1" value="opt1" checked>
-            Слайдер
-          </label><br>
-          <label>
-            <input type="checkbox" name="option-2" value="opt2">
-            Блок преимуществ
-          </label><br>
-          <label>
-            <input type="checkbox" name="option-3" value="opt3" checked>
-            Новости
-          </label><br>
-          <label>
-            <input type="checkbox" name="option-4" value="opt4">
-            Галерея
-          </label><br>
-          <label>
-            <input type="checkbox" name="option-5" value="opt5">
-            Корзина
-          </label><br>
-          <a class="btn-2" type="submit">Показать</a>
+          <div>
+            <input type="checkbox" name="option-1" value="opt1" id="option-1" checked>
+            <label for="option-1">
+              Слайдер
+            </label>
+          </div>
+          <div>
+            <input type="checkbox" name="option-2" id="option-2" value="opt2">
+            <label for="option-2">
+              Блок преимуществ
+            </label>
+          </div>
+          <div>
+            
+            <input type="checkbox" name="option-3" id="option-3" value="opt3" checked>
+            <label for="option-3">
+              Новости
+            </label>
+          </div>
+          <div>
+            <input type="checkbox" name="option-4" id="option-4" value="opt4">
+            <label for="option-4">
+              Галерея
+            </label>
+          </div>
+          <div>
+            <input type="checkbox" name="option-5" id="option-5" value="opt5">
+            <label for="option-5">
+              Корзина
+            </label>
+          </div>
+          <a class="btn-2">Показать</a>
         </div>
       </div>
       <!--sorting right-->
@@ -203,12 +220,12 @@
         </div>
         <!--botton buttons-->
         <ul class="pagination">
-          <li class="pagination-item">
+          <li class="pagination-item active">
             <a href="#" class="pagination-item">1</a>
           </li>
           <li class="pagination-item"><a>2</a></li>
           <li><a>3</a></li>
-          <li><a>Следующая</a></li>
+          <li><a class="show">Следующая</a></li>
         </ul>
         <!--закрытие контейне3ра-->
       </div>
@@ -222,7 +239,7 @@
         <div class="contact">
           <h4>Nerds Design Studio</h4>
           <p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
-          <p>тел. +7(812)275-75-75</p>
+          <p class="tel">тел. +7 (812) 275-75-75</p>
           <a href="#" class="btn btn-presentations">Напишите нам</a>
         </div>
       </div>

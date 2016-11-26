@@ -56,7 +56,7 @@ header .top-nav .mine-cart a.cart-icon {
 }
 .top-nav .mine-cart {
 	float: right;
-	margin-top: 16px;
+	margin-top: 20px;
 }
 .top-nav .logo {
 	max-height: 65px;
@@ -291,14 +291,14 @@ header .slider {
 }
 
 .portfolio {
-	float: left;
 	width: 100%;
 	border: 2px solid #eee;
 	border-width:2px 0;
 	padding-top: 50px;
 	padding-bottom: 40px;
 	margin-bottom: 80px;
-	font-size: 0;;
+	font-size: 0;
+	overflow: hidden;;
 }
 .portfolio a {
 	display: inline-block;
@@ -356,12 +356,17 @@ header .slider {
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
-	margin-top: 17px;
+	margin-top: 21px;
 }
 .map-container .contact h4 {
-	font-size: 18px;
+	font-size: 16px;
 	text-transform:uppercase;
-	margin-top: 0;
+	margin-top: 2px;
+	margin-left: 1px;
+	margin-bottom: 28px;
+}
+.map-container .contact p {
+	line-height: 19px;
 }
 /*catalog  ---------------------------catalog*/
 .clearfix::after {
@@ -379,8 +384,8 @@ header .slider {
 }
 .catalog .right-side {
 	float: right;
-	color: #000000;
 	padding-left: 50px;
+	color: #eeeeee;
 }
 .right-side .sorting-right-side {
 	float: left;
@@ -474,6 +479,7 @@ header .slider {
 
 .catalog .label-1 {
 	padding-top: 41px;
+	padding-left: 75px;
 }
 .catalog .label-2 {
 	padding-top: 0px;
@@ -484,7 +490,6 @@ header .slider {
     text-transform: uppercase;
     font-family: "Roboto";
     color: rgb(0, 0, 0);
-    padding-left: 76px;
 }
 .catalog .label-2 p {
 	margin-left: 4px;
@@ -494,45 +499,84 @@ header .slider {
     font-family: "Roboto";
     color: rgb(0, 0, 0);
 }
-.left-side .label-2 a.btn-2 {
-	;
-}
 .left-side .label-2 a {
+	width: 260px;
 	font-size: 16px; 
 	text-align: center; 
-	padding-top: 15px; 
+	padding-top: 16px; 
 	color: rgb(0, 0, 0); 
 	height: 38px;
-	width: 263px;
-	margin-left: 2px;
-	margin-top: 25px;
+	margin-left: 5px;
+	margin-top: 29px;
 	border-radius: 3px;
-	text-transform: uppercase
-	font-family: "Roboto";
-	border-radius: 3px;     /*--WTF--*/
+	text-transform: uppercase;
+	background-color: #eeeeee;
+	display: inline-block;
+	font-family: "Roboto";     /*--WTF--*/
 }
 .catalog .label-1 label {
 	display: inline-block;
-	padding-left: 81px;
-	padding-bottom: 18px;
-	font-size: 14px;
+	font-size: 16px;
     font-family: "Roboto";
     color: rgb(0, 0, 0);
+	padding-left: 38px;
+	height: 25px;
+	line-height: 24px;
+	margin-bottom: 14px;
 }
 .catalog .label-2 label {
 	padding-left: 10px;
-	padding-bottom: 18px;
+	padding-bottom: 16px;
     font-size: 14px;
     font-family: "Roboto";
 	color: rgb(0, 0, 0);
 	display: inline-block;
 }
 .label-1 input {
+	display: none;
 	margin-right: 10px;
 }
+.label-1 label {
+	display: inline-block;
+	padding-left:10px;
+	background-repeat: no-repeat;
+	background-image: url(../img/catalog/radio/radio.png)
+}
+.label-1 label:hover{
+	background-image: url(../img/catalog/radio/radio-hvr.png)
+}
+
+.label-1 input:checked + label:hover {
+	background-image: url(../img/catalog/radio/radio-on-hvr.png)
+}
+.label-1 input:checked + label {
+	background-image: url(../img/catalog/radio/radio-on.png)
+}
+
 .label-2 input {
+	display: none;
 	margin-right: 10px;
 }
+.catalog .label-2 label {
+	display: inline-block;
+	height: 25px;
+	line-height: 24px;
+	padding-left:42px;
+	background-repeat: no-repeat;
+}
+.catalog .label-2 label {
+ background-image: url(../img/catalog/checkbox/checkbox.png)
+}
+.catalog .label-2 label:hover {
+ background-image: url(../img/catalog/checkbox/checkbox-hvr.png)
+}
+.catalog .label-2 input:checked + label {
+ background-image: url(../img/catalog/checkbox/checkbox-on.png)
+}
+.catalog .label-2 input:checked + label:hover {
+ background-image: url(../img/catalog/checkbox/checkbox-on-hvr.png)
+}
+
 /*--- left-side  Cтоимость:---*/
 .sorting {
 	padding:55px 0;
@@ -585,18 +629,28 @@ header .slider {
 /*--catalog footer pagination--*/
 .pagination {
 	display: inline-block;
-	margin-left: -37px;
-	margin-bottom: 55px
-
+	margin-left: -39px;
+	margin-bottom: 55px;
+}
+.pagination li:last-child {
+	padding: 12px 77px;
 }
 .pagination li {
 	float: left;
 	list-style: none;
-	border: 1px solid black;
-	margin-top: 42px;
-	margin-right: 10px;
-	padding: 12px 20px;
-
+	border: 3px solid #eeeeee;
+	background-color: #eeeeee;
+	border-radius: 3px;
+	margin-top: 41px;
+	margin-right: 8px;
+	padding: 11px 19px;
+}
+.pagination li.active{
+	background-color: transparent;
+}
+.pagination li:hover {
+	border: 3px solid #eeeeee;
+	background-color: #dfdfdf;
 }
 .pagination a {
 	list-style: none;
@@ -608,7 +662,10 @@ header .slider {
 	color: rgb(0, 0, 0);
 	
 }
+.pagination li:hover a{
+} 
 /*catalog  ---------------------------catalog*/
+
 footer {
 	padding:70px 0;
 	overflow:hidden;
@@ -635,6 +692,12 @@ footer .footer-social a {
 	line-height: 80px;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+footer .footer-social a:hover {
+	background-color: #e74246;
+}
+footer .footer-social a:active {
+	background-color: #d7373b ;
 }
 footer .footer-social a.social-btn-vk {
 	background-image: url(../img/vk-icon.png);
