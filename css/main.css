@@ -577,9 +577,33 @@ header .slider {
 .catalog .catalog-item{
 	padding-bottom: 70px;
 }
+.catalog-left .catalog-item2 {
+	margin-bottom: 0;
+}
 /*--footer catalog pagination--*/
+.pagination {
+	display: inline-block;
+	margin-left: -37px;
+	margin-bottom: 55px
+}
+.pagination li {
+	float: left;
+	list-style: none;
+	border: 1px solid black;
+	margin-top: 42px;
+	margin-right: 10px;
+	padding: 12px 13px;
+}
 .pagination a {
-
+	margin-left: 15px;
+	padding-right: 
+	list-style: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: "Roboto";
+	color: rgb(0, 0, 0);
+	text-align: center;
 }
 /*catalog  ---------------------------catalog*/
 footer {

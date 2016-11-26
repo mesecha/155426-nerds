@@ -3,28 +3,26 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс Каталог</title>
-<!--Range slider -->
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-<script>
-  $( function() {
+    <!--Range slider -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
     $( "#slider-range-control" ).slider({
-      range: true,
-      min: 0,
-      max: 20000,
-      values: [ 0, 14500 ],
-      slide: function( event, ui ) {
-        $( "#price-from" ).val(ui.values[ 0 ] );
-        $( "#price-to" ).val(ui.values[ 1 ] );
-      }
+    range: true,
+    min: 0,
+    max: 20000,
+    values: [ 0, 14500 ],
+    slide: function( event, ui ) {
+    $( "#price-from" ).val(ui.values[ 0 ] );
+    $( "#price-to" ).val(ui.values[ 1 ] );
+    }
     });
-   
-  } );
-  </script>
-<!--Range slider -->
-
+    
+    } );
+    </script>
+    <!--Range slider -->
     <link href="http://fonts.goosgleapis.com/css?family=Roboto:500,300&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
@@ -67,14 +65,13 @@
           <b>Стоимость:</b>
         </div>
         <div class="range-filter">
-           <div id="slider-range-control"></div>
-
+          <div id="slider-range-control"></div>
         </div>
-          <!--бегунок по цене-->
-          <div class="range-control">
+        <!--бегунок по цене-->
+        <div class="range-control">
           <label>От<input type="text" id="price-from" name="price-from" value="0"></label>
           <label>До<input type="text" id="price-to" name="price-to" value="15 000"></label>
-          </div>
+        </div>
         <!-- колонка переключателей-->
         <div class="label-1">
           <p><b>Сетка:</b></p>
@@ -161,7 +158,7 @@
               <img src="img/img-barbershop.png" alt="catalog-item2" width="360" height="576">
             </div>
           </article>
-          <article class="catalog-item">
+          <article class="catalog-item2">
             <div class="catalog-item_top">
               <i></i>
               <i></i>
@@ -193,7 +190,7 @@
               <img src="img/img-mishka.png" alt="catalog-item5" widyh="360" height="576">
             </div>
           </article>
-          <article class="catalog-item">
+          <article class="catalog-item2">
             <div class="catalog-item_top">
               <i></i>
               <i></i>
@@ -211,7 +208,7 @@
           </li>
           <li class="pagination-item"><a>2</a></li>
           <li><a>3</a></li>
-          <li><a></a></li>
+          <li><a>Следующая</a></li>
         </ul>
         <!--закрытие контейнера-->
       </div>
