@@ -111,6 +111,133 @@ h1.shop-g {
 	font-family: "Roboto";
 	color: rgb(0, 0, 0);
 }
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.hidden {
+	display: none;
+}
+
+.container {
+	width: 1200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+header.header-top {
+	background: #eeeeee;
+}
+
+.top-nav {
+	padding-top: 50px;
+	background: #eeeeee;
+	overflow: hidden;
+}
+
+.top-nav .logo-menu {
+	display: inline-block;
+	width: 160px;
+	height: 65px;
+	background-repeat: no-repeat;
+	background-image: url(../img/logo/logo.png);
+}
+
+.top-nav .logo-menu:hover {
+	background-image: url(../img/logo/logo-hvr.png);
+}
+
+.top-nav .logo-menu:active {
+	background-image: url(../img/logo/logo-act.png);
+}
+
+.top-nav .logo,
+.top-nav .main-menu,
+.top-nav .mine-cart {
+	float: left;
+	list-style: none;
+}
+
+.top-nav .main-menu li,
+.top-nav .mine-cart {
+	float: left;
+	padding: 0 10px;
+	margin-right: 25px;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+	line-height: 1.875;
+	text-align: left;
+	border: 1px solid transparent;
+}
+
+.top-nav .main-menu li.active a {
+	border-bottom: 2px solid #fb565a;
+}
+
+header .top-nav .mine-cart a {
+	padding-left: 40px;
+	background-color: #eee;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+header .top-nav .mine-cart a.cart-icon {
+	background-image: url(../img/cart-icon.png);
+}
+
+.main-menu {
+	margin-left: 190px;
+	padding-left: 0;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+.top-nav .mine-cart {
+	float: right;
+	margin-top: 20px;
+}
+
+.top-nav .logo {
+	max-height: 65px;
+}
+
+.top-nav a {
+	text-decoration: none;
+	color: #333;
+	padding: 5px 0;
+}
+
+.top-nav a:hover {
+	color: #e74246;
+}
+
+.top-nav a:active {
+	color: #bdbdbd;
+}
+
+.slider-top h1 {
+	font-size: 55px;
+	line-height: 1;
+	font-family: "Roboto";
+	margin-top: 75px;
+	margin-bottom: 25px;
+	color: rgb(0, 0, 0);
+}
+
+h1.shop-g {
+	line-height: 1;
+	margin-top: 78px;
+	margin-left: 219px;
+	margin-bottom: 108px;
+	font-size: 55px;
+	font-family: "Roboto";
+	color: rgb(0, 0, 0);
+}
 /*catalog*/
 }
 header .slider {
@@ -155,7 +282,13 @@ header .slider {
 	line-height: 50px;
 	text-align: center;
 }
-
+.slider-top a:hover {
+	background-color: #e74246;
+}
+.slider-top a:active {
+	color: #e38384;
+	background-color: #d7373b;
+}
 .main-container {
 	width: 1200px;
     margin: 0 auto;
@@ -206,12 +339,39 @@ header .slider {
 	width: 160px;
 	text-align: center;
 }
-.offers .btn-presentations3 {
-
-    background-color: #efc84a;
+.contact a:hover.btn-presentations {
+	background-color: #e74246;
+}
+.contact a:active.btn-presentations {
+	background-color: #e74246;
+	color: #de6669;
+}
+.offers a:hover.btn-presentations {
+	 background-color: #e74246;
+}
+.offers a:active.btn-presentations {
+	 background-color: #d7373b;
+	 color: #de6669;
 }
 .offers .btn-presentations2 {
 	background-color: #00ca74;
+}
+.offers a:hover.btn-presentations2 {
+	 background-color: #00bc6c;
+}
+.offers a:active.btn-presentations2 {
+	 background-color: #00aa62;
+	 color: #52bb86;
+}
+.offers .btn-presentations3 {
+    background-color: #efc84a;
+}
+.offers a:hover.btn-presentations3 {
+    background-color: #eab534;
+}
+.offers a:active.btn-presentations3 {
+    background-color: #e5a722;
+    color: #e9b555;
 }
 .advertise {
 	border-top: 2px solid #eee; 
@@ -385,6 +545,7 @@ header .slider {
 	text-align: center;
 	margin-top: 21px;
 }
+
 .map-container .contact h4 {
 	font-size: 16px;
 	text-transform:uppercase;
@@ -650,12 +811,12 @@ header .slider {
 .catalog-left {
 	float: left;
 	padding-left: 4px;
-	padding-top :40px;
+	padding-top :-60px;
 }
 .catalog-right {
 	float: right;
 	padding-right: 113px;
-	padding-top :40px;
+	padding-top :-60px;
 }
 .catalog-item_top{
 	background-color: #e9e9e9;
@@ -680,7 +841,7 @@ header .slider {
 }
 
 .catalog .catalog-item{
-	padding-bottom: 70px;
+	padding-bottom: 30px;
 }
 .catalog-left .catalog-item2 {
 	margin-bottom: 0;
@@ -774,5 +935,5 @@ footer .footer-social a:last-child {
 	margin-right: 0;
 }
 footer .footer-links {
-	margin-left:140px;
+	margin-left: 143px;
 }
